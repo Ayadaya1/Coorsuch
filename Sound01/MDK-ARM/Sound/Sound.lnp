@@ -1,0 +1,23 @@
+--cpu Cortex-M3
+"sound\startup_stm32f103xb.o"
+"sound\main.o"
+"sound\stm32f1xx_it.o"
+"sound\stm32f1xx_hal_msp.o"
+"sound\stm32f1xx_hal_gpio_ex.o"
+"sound\stm32f1xx_hal_tim.o"
+"sound\stm32f1xx_hal_tim_ex.o"
+"sound\stm32f1xx_hal.o"
+"sound\stm32f1xx_hal_rcc.o"
+"sound\stm32f1xx_hal_rcc_ex.o"
+"sound\stm32f1xx_hal_gpio.o"
+"sound\stm32f1xx_hal_dma.o"
+"sound\stm32f1xx_hal_cortex.o"
+"sound\stm32f1xx_hal_pwr.o"
+"sound\stm32f1xx_hal_flash.o"
+"sound\stm32f1xx_hal_flash_ex.o"
+"sound\stm32f1xx_hal_exti.o"
+"sound\system_stm32f1xx.o"
+--strict --scatter "Sound\Sound.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Sound.map" -o Sound\Sound.axf

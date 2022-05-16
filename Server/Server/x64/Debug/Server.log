@@ -1,0 +1,13 @@
+﻿  main.cpp
+C:\Users\Филипп лох\Desktop\hidwapi\main.cpp(1,1): warning C4005: _WINSOCK_DEPRECATED_NO_WARNINGS: изменение макроопределения
+C:\Users\Филипп лох\Desktop\hidwapi\main.cpp : message : см. предыдущее определение "_WINSOCK_DEPRECATED_NO_WARNINGS"
+C:\Users\Филипп лох\Desktop\hidwapi\main.cpp(65,10): warning C4101: buf1: неиспользованная локальная переменная
+C:\Users\Филипп лох\Desktop\hidwapi\main.cpp(113,10): warning C4101: point_x: неиспользованная локальная переменная
+C:\Users\Филипп лох\Desktop\hidwapi\main.cpp(67,10): warning C4101: wstr: неиспользованная локальная переменная
+C:\Users\Филипп лох\Desktop\hidwapi\main.cpp(63,6): warning C4101: res: неиспользованная локальная переменная
+C:\Users\Филипп лох\Desktop\hidwapi\main.cpp(71,6): warning C4101: i: неиспользованная локальная переменная
+C:\Users\Филипп лох\Desktop\hidwapi\main.cpp(114,10): warning C4101: point_y: неиспользованная локальная переменная
+C:\Users\Филипп лох\Desktop\hidwapi\main.cpp(112,11): warning C4101: button: неиспользованная локальная переменная
+C:\Users\Филипп лох\Desktop\hidwapi\main.cpp(115,10): warning C4101: color: неиспользованная локальная переменная
+C:\Users\Филипп лох\Desktop\hidwapi\main.cpp(111,10): warning C4101: menu: неиспользованная локальная переменная
+  Server.vcxproj -> C:\Users\Филипп лох\Desktop\Coorsuch\Server\Server\x64\Debug\Server.exe

@@ -1,0 +1,5 @@
+﻿  Client.cpp
+C:\Users\Филипп лох\Desktop\Coorsuch\Client\Client\Client.cpp(1,1): warning C4005: _CRT_SECURE_NO_WARNINGS: изменение макроопределения
+C:\Users\Филипп лох\Desktop\Coorsuch\Client\Client\Client.cpp : message : см. предыдущее определение "_CRT_SECURE_NO_WARNINGS"
+C:\Users\Филипп лох\Desktop\Coorsuch\Client\Client\Client.cpp(21,9): warning C4101: nSize: неиспользованная локальная переменная
+  Client.vcxproj -> C:\Users\Филипп лох\Desktop\Coorsuch\Client\Client\x64\Debug\Client.exe

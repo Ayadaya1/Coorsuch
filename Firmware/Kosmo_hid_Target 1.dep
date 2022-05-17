@@ -42,7 +42,7 @@ I (.\Middlewares\ST\STM32_USB_Device_Library\Core\Inc\usbd_core.h)(0x57456964)
 I (.\Middlewares\ST\STM32_USB_Device_Library\Core\Inc\usbd_ctlreq.h)(0x57456964)
 I (.\Inc\ssd1306.h)(0x617979D0)
 I (.\Inc\fonts.h)(0x59E89EAC)
-F (.\Src\usbd_desc.c)(0x6282355A)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\Inc -I .\Drivers\CMSIS\Include -I .\Middlewares\ST\STM32_USB_Device_Library\Class\CustomHID\Inc -I .\Middlewares\ST\STM32_USB_Device_Library\Core\Inc -I .\Drivers\STM32F1xx_HAL_Driver\Inc -I .\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy -I .\Drivers\CMSIS\Device\ST\STM32F1xx\Include-I.\RTE\_Target_1-I"C:\Users\Филипп лох\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include"-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DSTM32F10X_MD-o .\usbd_desc.o --omf_browse .\usbd_desc.crf --depend .\usbd_desc.d)
+F (.\Src\usbd_desc.c)(0x62836EB9)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\Inc -I .\Drivers\CMSIS\Include -I .\Middlewares\ST\STM32_USB_Device_Library\Class\CustomHID\Inc -I .\Middlewares\ST\STM32_USB_Device_Library\Core\Inc -I .\Drivers\STM32F1xx_HAL_Driver\Inc -I .\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy -I .\Drivers\CMSIS\Device\ST\STM32F1xx\Include-I.\RTE\_Target_1-I"C:\Users\Филипп лох\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include"-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DSTM32F10X_MD-o .\usbd_desc.o --omf_browse .\usbd_desc.crf --depend .\usbd_desc.d)
 I (.\Middlewares\ST\STM32_USB_Device_Library\Core\Inc\usbd_core.h)(0x57456964)
 I (.\Inc\usbd_conf.h)(0x62822B6A)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEBC032)

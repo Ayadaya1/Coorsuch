@@ -106,41 +106,36 @@ int main()
             system("cls");
             recv(sock, szBuffer, 260, NULL);
             pack.Deserialize(szBuffer);
-            if (strlen(pack.Data))
+            uint8_t report;
+            memcpy(&report, pack.Data, sizeof(report));
+            switch (report)
             {
-                uint8_t report;
-                memcpy(&report, pack.Data, sizeof(report));
-                switch (report)
-                {
-                case 0:
-                    std::cout << "Платы не подключены";
-                    break;
-                case 1:
-                    std::cout << "Подключена только первая плата";
-                    break;
-                case 2:
-                    std::cout << "Подключена только вторая плата";
-                    break;
-                case 3:
-                    std::cout << "Подключены первая и вторая платы";
-                    break;
-                case 4:
-                    std::cout << "Подключена только третья плата";
-                    break;
-                case 5:
-                    std::cout << "Подключены первая и третья платы";
-                    break;
-                case 6:
-                    std::cout << "Подключены вторая и третья платы";
-                    break;
-                case 7:
-                    std::cout << "Подключены все три платы";
-                    break;
-                }
-                std::cout << std::endl;
+            case 0:
+                std::cout << "Платы не подключены";
+                break;
+            case 1:
+                std::cout << "Подключена только первая плата";
+                break;
+            case 2:
+                std::cout << "Подключена только вторая плата";
+                break;
+            case 3:
+                std::cout << "Подключены первая и вторая платы";
+                break;
+            case 4:
+                std::cout << "Подключена только третья плата";
+                break;
+            case 5:
+                std::cout << "Подключены первая и третья платы";
+                break;
+            case 6:
+               std::cout << "Подключены вторая и третья платы";
+                break;
+            case 7:
+                std::cout << "Подключены все три платы";
+                break;
             }
-            else
-                std::cout << "Не удалось связаться с сервером!\n";
+            std::cout << std::endl;
             system("pause");
             break;
         }
